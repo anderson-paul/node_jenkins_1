@@ -6,7 +6,7 @@ describe('GET /', function() {
     request(app).get('/').expect('hello world', done);
   });
   
-  it('will fail', function(done) {
-     request(app).get('/').expect('hello world',done);
+  it('will fail now', function(done) {
+     request(app).get('/').expect('hello ',done);
   });
 });
